@@ -1,0 +1,119 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello, welcome to our online store!", "Good to see you! How can I assist you today?", "Hi there, how can I help you?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["Thank you for shopping with us. Have a great day!", "See you later! Feel free to return anytime.", "Goodbye! We look forward to serving you again."],
+            "context_filter": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["You're welcome! If you need further assistance, just let us know.", "Glad I could assist! Don't hesitate to reach out if you need anything else.", "My pleasure. Happy shopping!"],
+            "context_filter": ""
+        },
+        {
+            "tag": "products",
+            "patterns": ["What products do you offer?", "What kinds of items do you sell?", "What are your top products?"],
+            "responses": ["We offer a wide range of products including electronics, clothing, home goods, and more.", "Our product catalog includes electronics, fashion items, home decor, and much more.", "You'll find everything from electronics to fashion and home essentials in our store."],
+            "context_set": ""
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": ["What payment methods do you accept?", "Do you take credit cards?", "Are you cash only?"],
+            "responses": ["We accept various payment methods including credit cards, debit cards, PayPal, and more.", "We accept major credit cards such as VISA, Mastercard, and American Express.", "You can pay using credit cards, PayPal, or other secure payment options."],
+            "context_set": ""
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["How does delivery work?", "Do you offer shipping?", "What are your shipping options?"],
+            "responses": ["We offer fast and reliable shipping options to deliver your orders to your doorstep.", "Our shipping process is quick and efficient, ensuring your order reaches you in no time.", "You can choose from a range of shipping options including standard, express, and same-day delivery."],
+            "context_set": ""
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["How can I check my order status?", "Where can I track my order?", "Is there a way to monitor my delivery?"],
+            "responses": ["You can easily track your order status by logging into your account on our website.", "To check your order status, simply visit the 'Track Order' section on our website and enter your order details.", "Monitoring your delivery is hassle-free. Just use the tracking number provided in your order confirmation email to track your package."],
+            "context_set": ""
+        },
+        {
+            "tag": "discounts",
+            "patterns": ["Do you offer any discounts?", "Are there any promotions available?", "Can I get a discount code?"],
+            "responses": ["We frequently offer discounts and promotions to our valued customers. Be sure to check our website regularly for the latest deals.", "Yes, we have ongoing promotions and special offers to help you save on your purchases.", "You may receive discount codes through our newsletter or during special sale events. Stay tuned for exclusive savings opportunities!"],
+            "context_set": ""
+        },
+	{
+            "tag": "search",
+            "patterns": ["How can I search for products?", "Where is the search bar?", "Can I search for specific items?"],
+            "responses": ["You can easily search for products using the search bar at the top of our website.", "Our search feature allows you to find specific items quickly. Just type in keywords related to what you're looking for.", "Finding products is simple with our search function. Enter keywords or product names to get started."],
+            "context_set": ""
+        },
+        {
+            "tag": "account",
+            "patterns": ["How do I create an account?", "Where can I sign up for an account?", "Is it necessary to have an account?"],
+            "responses": ["You can create an account by clicking on the 'Sign Up' or 'Register' button on our website and following the prompts.", "Signing up for an account is quick and easy. Just visit our website and click on 'Create Account'.", "While it's not mandatory, having an account offers benefits such as order tracking, faster checkout, and exclusive offers."],
+            "context_set": ""
+        },
+        {
+            "tag": "wishlist",
+            "patterns": ["Can I create a wishlist?", "Where can I find my wishlist?", "How do I add items to my wishlist?"],
+            "responses": ["Yes, you can create a wishlist to save items for future purchase. Look for the 'Add to Wishlist' button on product pages.", "Your wishlist can be found in your account dashboard. Simply log in and navigate to the 'My Wishlist' section.", "Adding items to your wishlist is easy. Just click on the heart icon next to the product you want to save."],
+            "context_set": ""
+        },
+        {
+            "tag": "returns",
+            "patterns": ["What is your return policy?", "How do I return an item?", "Can I exchange a product?"],
+            "responses": ["Our return policy allows you to return or exchange items within a certain timeframe. Please refer to our Returns & Exchanges page for detailed information.", "To initiate a return, please contact our customer service team or fill out the return request form on our website.", "You may be eligible to exchange a product for a different size or color. Contact us for assistance with exchanges."],
+            "context_set": ""
+        },
+        {
+            "tag": "customer_support",
+            "patterns": ["How can I contact customer support?", "Is there someone I can talk to for assistance?", "Where can I find help if I have questions?"],
+            "responses": ["Our customer support team is available to assist you. You can reach us via live chat, email, or phone.", "For immediate assistance, chat with one of our customer support representatives using the live chat feature on our website.", "If you have any questions or need help with your order, our customer support team is here to help. Contact us anytime for assistance."],
+            "context_set": ""
+        },
+	{
+            "tag": "shipping_costs",
+            "patterns": ["How much is shipping?", "Do you offer free shipping?", "What are your shipping rates?"],
+            "responses": ["Shipping costs vary depending on the destination and shipping method. You can view shipping options and rates during checkout.", "We offer free shipping on orders over a certain amount. Check our website for current promotions and eligibility criteria.", "Shipping rates are calculated based on factors such as package weight, destination, and shipping method. You can estimate shipping costs in your shopping cart before checkout."],
+            "context_set": ""
+        },
+        {
+            "tag": "out_of_stock",
+            "patterns": ["Is this item out of stock?", "When will this product be back in stock?", "Can I pre-order an item that's out of stock?"],
+            "responses": ["If an item is out of stock, you'll see a notification on the product page. You can sign up to receive an email notification when it's back in stock.", "We strive to restock popular items as soon as possible. Check back frequently or sign up for notifications to be alerted when the item is available again.", "Unfortunately, we don't offer pre-orders for items that are out of stock. However, you can sign up for notifications to be informed when the product is back in stock."],
+            "context_set": ""
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": ["How do I track my order?", "Where is my package?", "Can I track my shipment?"],
+            "responses": ["You can track your order by entering the tracking number provided in your order confirmation email on our website's 'Track Order' page.", "Tracking information for your package will be available once it's shipped. Check your order status for updates and tracking details.", "To track your shipment, use the tracking number provided in your order confirmation email on the carrier's website."],
+            "context_set": ""
+        },
+        {
+            "tag": "product_details",
+            "patterns": ["Can you provide more details about this product?", "What are the specifications of this item?", "Do you have any additional information about this product?"],
+            "responses": ["For detailed product information, including specifications and features, please visit the product page on our website.", "You can find comprehensive product details, including specifications, dimensions, and materials, on the product page.", "For more information about this product, please refer to the product description and specifications listed on our website."],
+            "context_set": ""
+        },
+        {
+            "tag": "order_cancellation",
+            "patterns": ["Can I cancel my order?", "How do I cancel an order?", "Is it possible to cancel an order after it's been placed?"],
+            "responses": ["You may be able to cancel your order if it hasn't been processed or shipped yet. Contact our customer support team as soon as possible for assistance with order cancellation.", "To cancel an order, please reach out to our customer support team with your order details. We'll do our best to accommodate your request if the order hasn't been fulfilled.", "Once an order has been processed or shipped, it may not be possible to cancel it. Contact us immediately if you need to cancel your order, and we'll assist you based on the order status."],
+            "context_set": ""
+        },
+	{
+    	    "tag": "not_understood",
+            "patterns": [],
+    	    "responses": ["I'm sorry, I'm not able to understand your request at the moment. Could you please try rephrasing it?", "It seems I didn't quite catch that. Could you provide more details or try asking again in a different way?", "I apologize, but I'm having trouble understanding your request. Could you try asking in a different way?"],
+    	    "context_set": ""
+	}
+
+    ]
+}
